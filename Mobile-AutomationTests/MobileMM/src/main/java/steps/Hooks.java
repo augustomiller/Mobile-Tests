@@ -1,22 +1,23 @@
 package steps;
 
+import static utilis.Utils.acessarApp;
+import static utilis.Utils.driver;
+
 import org.junit.After;
 import org.junit.Before;
 
-import pageObject.ClockPage;
-
 public class Hooks {
 
-	ClockPage cp = new ClockPage();
+
 
 	@Before
-	public void acessarApp() throws Exception {
-		cp.acessarApp();
+	public void setUp() throws Exception {
+		acessarApp();
 	}
 
 	@After
 	public void tearDown() {
-		cp.tearDown();
+		driver.quit();
 	}
 
 }
