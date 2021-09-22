@@ -10,5 +10,5 @@ Cenario: Adicionar novo alarme
 Dado que o utilizador esteja acessando o App Clock
 E acionar o menu alarme
 Quando o utilizador acionar o botao adicionar alarme
-E configurar a hora desejada
+E configurar a hora desejada para "5:20","PM"
 Entao o app adiciona o novo alarme

@@ -24,9 +24,17 @@ public class ClockSteps {
 	public void oUtilizadorAcionarOBotaoAdicionarAlarme() throws Exception {
 		ck.acionarBotaoNovoAlarme();
 	}
-
-	@E("configurar a hora desejada")
-	public void configurarAHoraDesejada() throws Exception {
+		
+	@Quando("configurar a hora desejada para {string},{string}")
+	public void configurarAHoraDesejadaPara(String hour, String period) throws Exception {
+		
+		String fullTime [] = hour.split(":");
+		String hourH = fullTime[0];
+		String minute = fullTime[1];
+		
+		ck.clicarNaHora(hourH);
+		ck.clicarNoMinuto(minute);
+		ck.selecionaroPeriodo(period);
 		ck.acionarBotaoOk();
 	}
 

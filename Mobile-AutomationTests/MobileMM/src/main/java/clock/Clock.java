@@ -112,6 +112,27 @@ public class Clock {
 		  
 		  assertEquals("true", campoCheckBox.getAttribute("checked"));
 	  }
+	  
+	  public void clicarNaHora(String hora) throws Exception {
+		  MobileElement clickHora = (MobileElement) driver.findElement(MobileBy.AccessibilityId(hora));
+		  clickHora.click();
+		  Thread.sleep(2000);
+	  }
+	  
+	  public void clicarNoMinuto(String minuto) throws Exception {
+		  MobileElement clickMinuto = (MobileElement) driver.findElement(MobileBy.AccessibilityId(minuto));
+		  clickMinuto.click();
+		  Thread.sleep(2000);
+	  }
+	  
+	  public void selecionaroPeriodo(String periodo) throws Exception {
+		  
+		  String periodModify = periodo.toLowerCase();
+		  
+		  MobileElement clickPeriodo = (MobileElement) driver.findElement(MobileBy.id("android:id/"+periodModify+"_label"));
+		  clickPeriodo.click();
+		  Thread.sleep(2000);
+	  }
 
 	  
 	  public void tearDown() {
