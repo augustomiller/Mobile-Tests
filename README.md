@@ -165,8 +165,82 @@ Acionamos o botão play para iniciar
 
 ##
 
+## Inicinado...
 
+Com o Emulador e o Appium já iniciado, vamos clicar em Start Inspector Session 🔎
 
+![StartInspectorSession](https://user-images.githubusercontent.com/990877/134578713-f7979a65-560d-4da5-8c8f-045fe0efc85b.png)
+
+Vamos configurar as Desired Capabilities, essas são as informações necessárias para podermos conectar em nosso aparelho.
+
+![DesiredCapabilities](https://user-images.githubusercontent.com/990877/134579231-e0684b9d-38db-46ad-9e48-6216751c6f0b.png)
+
+Para encontrar o nome do nosso device via linha de comando
+
+```script
+adb devices
+```
+```script
+{
+  "platformName": "Android",
+  "deviceName": "emulator-5554",
+  "automationName": "uiautomator2",
+  "appPackage": "com.google.android.deskclock",
+  "appActivity": "com.android.deskclock.DeskClock"
+}
+```
+Para encontrar os atributos necessários para popular a Desired Capabilities usaremos o App APK INFO
+
+![ApkInfo](https://user-images.githubusercontent.com/990877/134579778-a11c94ad-6995-4275-852b-5f9de8ad2ee6.png)
+
+Após salvarmos as configurações vamos em Start Session
+
+![startSession](https://user-images.githubusercontent.com/990877/134580054-f01a5829-2cd4-4ad2-a5bf-7bb698e61c54.png)
+
+* Iniciamos o Start Record, e gravamos um fluxo pequeno;
+* Agora clicamos em Show/Hide Boilerplate Code, para geramos o codigo java da conexão, para usarmos em nossa Classe Java Utils.
+
+![Boilerplate](https://user-images.githubusercontent.com/990877/134580889-fa16fca9-94cf-48b2-91bc-5049053532a1.png)
+
+##
+
+## Alguns comando interessantes
+
+Para fazer interação com o dispositivo via Shell
+Com esse comando podemos acessar o dispositivo e manipular os arquivos via linha de comando
+
+```script
+adb shell
+```
+![shellADB](https://user-images.githubusercontent.com/990877/134581578-016189a6-9e5e-4d06-a5b5-3e3192b2face.png)
+
+Comando para listar os dispositivo conectado
+
+```script
+adb devices
+```
+![adbdevices](https://user-images.githubusercontent.com/990877/134582557-bb0acd65-545f-43e2-9084-03b949e9666f.png)
+
+Comando para listar todos os pacotes do dispositivo
+
+```script
+pm list packages
+```
+![list](https://user-images.githubusercontent.com/990877/134581930-4486754e-511b-41cc-bdb1-308b7b42775a.png)
+
+Comando para descobrir o App Activity
+
+```script
+dumpsys package | grep -Eo "^[[:space:]]+[0-9a-f]+[[:space:]]+com.sec.android.app.popupcalculator/[^[:space:]]+" | grep -oE "[^[:space:]]+$"
+```
+Comando para inciar um App
+
+```script
+am start -n <activitit do App>
+am start -n com.sec.android.app.popupcalculator/.calculator
+```
+
+##
 
 ## License
 
