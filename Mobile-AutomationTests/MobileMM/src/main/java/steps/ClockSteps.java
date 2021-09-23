@@ -1,11 +1,13 @@
 package steps;
 
-//import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.E;
+import static utilis.Utils.driver;
+
+import java.util.List;
+
+import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 import pageObject.ClockPage;
-import static utilis.Utils.*;
 
 public class ClockSteps {
 
@@ -13,7 +15,7 @@ public class ClockSteps {
 
 
 
-	@E("acionar o menu alarme")
+	@Dado("que o usuario acione o menu alarme")
 	public void acionarOMenuAlarme() throws Exception {
 		cp.acessarMenuAlarme();
 	}
@@ -35,11 +37,10 @@ public class ClockSteps {
 		cp.selecionaroPeriodo(period);
 		cp.acionarBotaoOk();
 	}
-
-	@Entao("o app adiciona o novo alarme")
-	public void oAppAdicionaONovoAlarme() throws Exception {
-		System.out.println("validação de um novo alarme");
-		
-		//cp.tearDown();
+	
+	@Entao("o app adiciona o novo alarme com as informacoes:")
+	public void oAppAdicionaONovoAlarmeComAsInformacoes(List<String> dados) {
+	    
+		cp.validarInformacoes(dados);
 	}
 }

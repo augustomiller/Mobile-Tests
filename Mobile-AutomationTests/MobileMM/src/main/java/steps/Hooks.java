@@ -5,6 +5,7 @@ import static utilis.Utils.driver;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 
 
@@ -16,7 +17,8 @@ public class Hooks {
 	}
 
 	@After
-	public void tearDown() {
+	public void tearDown(Scenario cenario) {
+		utilis.Utils.gerarScreenshot(cenario);
 		driver.quit();
 	}
 

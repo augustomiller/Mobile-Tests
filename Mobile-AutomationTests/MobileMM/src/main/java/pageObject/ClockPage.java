@@ -3,6 +3,8 @@ package pageObject;
 import static org.junit.Assert.assertEquals;
 import static utilis.Utils.driver;
 
+import java.util.List;
+
 import org.openqa.selenium.support.PageFactory;
 
 import io.appium.java_client.AppiumDriver;
@@ -17,7 +19,7 @@ public class ClockPage {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
-	@AndroidFindBy(xpath = "//android.widget.TextView[@text='ALARM']")
+	@AndroidFindBy(accessibility = "Alarm")
 	private MobileElement botaoAlarme;
 
 	@AndroidFindBy(accessibility = "Add alarm")
@@ -130,6 +132,18 @@ public class ClockPage {
 		MobileElement clickPeriodo = (MobileElement) driver
 				.findElement(MobileBy.id("android:id/" + periodModify + "_label"));
 		clickPeriodo.click();
+	}
+	
+	public void validarInformacoes(List<String> dados) {
+		
+		MobileElement infos;
+		
+		for (String info : dados) {
+			
+			infos = (MobileElement) driver.findElement(MobileBy.xpath("//*[@text='"+info+"']"));
+			System.out.println("Infos Tela: " + infos.getText());
+			assertEquals(info, infos.getText());
+		}
 	}
 
 }
