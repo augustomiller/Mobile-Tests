@@ -124,7 +124,20 @@ emulator @stffAVD &
 ```
 ![12](https://user-images.githubusercontent.com/990877/134573510-4dabb3de-78b6-46cb-9598-6530af5aa5f6.png)
 
+## Instalação do Appium
 
+- [Appium v1.15.0](https://github.com/appium/appium-desktop/releases/tag/v1.15.0)
+
+opção: Appium-mac-1.15.0.dmg
+
+![AppiumVersion15](https://user-images.githubusercontent.com/990877/134574367-71fefc9f-e8bf-4f10-9ef7-9a7585674c7d.png)
+![AppiumApp](https://user-images.githubusercontent.com/990877/134574702-3787448a-0438-4833-94fd-6d6491337770.png)
+
+### start server
+
+Quando o appium é iniciado ele nos fornece uma API-Rest
+
+![AppiumStart](https://user-images.githubusercontent.com/990877/134575009-840d4ad2-0fab-4571-b611-5718268fac43.png)
 
 ##
 
