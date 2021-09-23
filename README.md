@@ -113,17 +113,18 @@ Comando uiautomatorviewer
 ## Criar um novo Virtual Device
 
 ![8](https://user-images.githubusercontent.com/990877/134571964-18599d79-e8de-42df-8451-5597cb1e739e.png)
+![9](https://user-images.githubusercontent.com/990877/134572246-5f91c9bf-3f6f-4b4b-9c3c-81fdb73988a1.png)
+![10](https://user-images.githubusercontent.com/990877/134572359-2beb66e8-3440-416c-b9d4-d04dfb437a6d.png)
+![11](https://user-images.githubusercontent.com/990877/134572540-3c70d849-f8aa-49cf-a4e1-1cf9f4ad1a38.png)
 
-##
+### podemos fechar o Android Studio, vamos levantar o emulator via terminal.
 
-## Fluxo da navegação
+```script
+emulator @stffAVD &
+```
+![12](https://user-images.githubusercontent.com/990877/134573510-4dabb3de-78b6-46cb-9598-6530af5aa5f6.png)
 
-<div align="center">
 
-<a href=""><img src="https://img.shields.io/badge/step-01-9cf"></a>&nbsp;
-
-
-</div>
 
 ##
 
