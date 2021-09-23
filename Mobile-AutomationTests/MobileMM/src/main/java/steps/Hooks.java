@@ -1,14 +1,14 @@
 package steps;
 
-import static utilis.Utils.acessarApp;
+import static utilis.Utils.*;
 import static utilis.Utils.driver;
 
-import org.junit.After;
-import org.junit.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+
 
 public class Hooks {
-
-
 
 	@Before
 	public void setUp() throws Exception {

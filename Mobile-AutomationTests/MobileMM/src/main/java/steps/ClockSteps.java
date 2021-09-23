@@ -11,6 +11,8 @@ public class ClockSteps {
 
 	ClockPage cp = new ClockPage(driver);
 
+
+
 	@E("acionar o menu alarme")
 	public void acionarOMenuAlarme() throws Exception {
 		cp.acessarMenuAlarme();
