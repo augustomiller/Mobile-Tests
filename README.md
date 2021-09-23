@@ -54,14 +54,14 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java 
 ## Variáveis de Ambiente
 
 
-Caminho do JDK
+Path do JDK
 ```script
 /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk
 ```
 
 ### Variáveis e ambiente para o uiautomator
 
-Destino das varáveis de ambiente ⇢ ~ (home)
+Path das varáveis de ambiente ⇢ ~ (home)
 
 ```script
 ➜ vim ~/.zshrc
