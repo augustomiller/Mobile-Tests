@@ -37,6 +37,7 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java 
 
 - [JDK 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
 - [Eclipse](https://www.eclipse.org/)
+- [Cucumber](https://cucumber.io/)
 - [Appium](https://appium.io/)
 - [Vysor](https://www.vysor.io/)
 - [MVN Repository](https://mvnrepository.com/)
@@ -45,9 +46,10 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java 
 
 ## Documentação
 
-- [Docuentação Android Studio](https://developer.android.com/docs)
-- [Docuentação Eclipse](https://help.eclipse.org/latest/index.jsp)
-- [Documentação Appium](https://appium.io/docs/en/about-appium/intro/)
+- [Android Studio Docs](https://developer.android.com/docs)
+- [Eclipse Docs](https://help.eclipse.org/latest/index.jsp)
+- [Appium Docs](https://appium.io/docs/en/about-appium/intro/)
+- [Cucumber Docs](https://cucumber.io/docs/cucumber/)
 
 ## Variáveis de Ambiente
 
