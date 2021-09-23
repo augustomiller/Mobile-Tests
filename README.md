@@ -4,7 +4,7 @@
 # Testes Mobile 📱
   
   
-Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java com BDD(Cucumber), Appium, UIautomatorviewer Android Studio, Sera realizado uam bateria de testes em um aplicativo nativo para validar suas funcionalidades.
+Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java com BDD(Cucumber), Appium, UIautomatorviewer Android Studio e Padrões de projetos como Page Object e Page Factory, realizei uma bateria de testes em um aplicativo nativo, para validar suas funcionalidades.
   
 </div>
   
