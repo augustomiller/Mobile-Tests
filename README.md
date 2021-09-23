@@ -235,7 +235,7 @@ dumpsys package | grep -Eo "^[[:space:]]+[0-9a-f]+[[:space:]]+com.sec.android.ap
 Comando para inciar um App
 
 ```script
-am start -n <activitit do App>
+am start -n <activity do App>
 am start -n com.sec.android.app.popupcalculator/.calculator
 ```
 
