@@ -135,11 +135,36 @@ opção: Appium-mac-1.15.0.dmg
 
 ### start server
 
-Quando o appium é iniciado ele nos fornece uma API-Rest
+Quando o Appium é iniciado ele nos fornece uma API-Rest
 
 ![AppiumStart](https://user-images.githubusercontent.com/990877/134575009-840d4ad2-0fab-4571-b611-5718268fac43.png)
 
+# Configurando o Dispositivo Físico
+
+* É necessário instalar o driver do celular no PC, apenas conectando-o via USB o computar instala o Driver automaticamente.
+* Também é necessário habilitar o modo desenvolvedor no celular, cada modelo tem a sua forma.
+* Habilitar a depuração de USB.
+
+Instalando o Vysor
+
+- [Vysor](https://www.vysor.io/)
+
+![vysorDownload](https://user-images.githubusercontent.com/990877/134575975-2167a301-9b5a-4f75-a3b4-ea8424e3abe3.png)
+
+Com o Vysor instalado e aberto, conecte o celular via cabo USB no computador.
+
+![vysorInstalaldo](https://user-images.githubusercontent.com/990877/134576365-3465aafd-498e-4625-b903-7f48fcc919ac.png)
+
+Dessa forma conseguimos vizualizar o dispositivo
+
+![vysorMeuCell](https://user-images.githubusercontent.com/990877/134576760-89794863-ccce-46e7-bbd9-4a28ff420db7.png)
+
+Acionamos o botão play para iniciar
+
+![meuCell](https://user-images.githubusercontent.com/990877/134577300-e197bbf7-dea3-434a-8f13-bcd562ccc45a.png)
+
 ##
+
 
 
 
