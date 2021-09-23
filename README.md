@@ -8,10 +8,13 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java 
   
 </div>
   
-  <p align="center">
+ <p align="center">
   <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Documentação">Documentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Variáveis-de-Ambiente">Variáveis de Ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Instalação-do-Appium">Instalação do Appium</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Configurando-o-Dispositivo-Físico">Configurando o Dispositivo Físico</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Alguns-comando-interessantes">Alguns comando interessantes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#License">License</a>
 </p>
 
@@ -212,21 +215,17 @@ Com esse comando podemos acessar o dispositivo e manipular os arquivos via linha
 ```script
 adb shell
 ```
-![shellADB](https://user-images.githubusercontent.com/990877/134581578-016189a6-9e5e-4d06-a5b5-3e3192b2face.png)
-
 Comando para listar os dispositivo conectado
 
 ```script
 adb devices
 ```
-![adbdevices](https://user-images.githubusercontent.com/990877/134582557-bb0acd65-545f-43e2-9084-03b949e9666f.png)
 
 Comando para listar todos os pacotes do dispositivo
 
 ```script
 pm list packages
 ```
-![list](https://user-images.githubusercontent.com/990877/134581930-4486754e-511b-41cc-bdb1-308b7b42775a.png)
 
 Comando para descobrir o App Activity
 
