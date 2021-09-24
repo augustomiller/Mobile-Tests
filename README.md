@@ -222,8 +222,13 @@ Comando para listar os dispositivo conectado
 ```script
 adb devices
 ```
+Comando para listar todos os emuladores configurados
 
-Comando para listar todos os pacotes do dispositivo
+```script
+emulator -list-avds
+```
+
+Comando para listar todos os pacotes do dispositivo 
 
 ```script
 pm list packages
