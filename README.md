@@ -227,8 +227,16 @@ Comando para listar todos os emuladores configurados
 ```script
 emulator -list-avds
 ```
+Comando para localizar o arquivo do emulator.
 
-Comando para listar todos os pacotes do dispositivo 
+```script
+➜ cd $ANDROID_HOME                                 
+
+Library/Android/sdk 
+➜
+```
+
+Comando para listar todos os pacotes do dispositivo
 
 ```script
 pm list packages
