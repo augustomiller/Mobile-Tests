@@ -103,6 +103,12 @@ export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/tools/bin:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
 ```
+Verificando se funcionou
+```script
+source ~/.zshrc
+echo $ANDROID_HOME
+```
+
 Comando adb
 ```script
 adb
