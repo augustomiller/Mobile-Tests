@@ -35,7 +35,8 @@ Objetivo 🎯  &nbsp;&nbsp;Utilizando as melhores tecnologias atuais como, Java 
 
 ## Tecnologias
 
-- [JDK 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
+- [Java JDK 8](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
+- [Android]()
 - [Eclipse](https://www.eclipse.org/)
 - [Cucumber](https://cucumber.io/)
 - [Appium](https://appium.io/)
